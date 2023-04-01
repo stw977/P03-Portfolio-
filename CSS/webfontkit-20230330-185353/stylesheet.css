@@ -3,10 +3,10 @@
 
 
 @font-face {
-    font-family: 'gt_alpina_trialCnLt';
+    font-family: 'GT-Alpina-cnd-lt';
     src: url('gt-alpina-condensed-light-trial-webfont.woff2') format('woff2'),
          url('gt-alpina-condensed-light-trial-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
 
 }
@@ -15,7 +15,7 @@
 
 
 @font-face {
-    font-family: 'gt_pressura_mono_trialrg';
+    font-family: 'GT-Pressura-mono-rg';
     src: url('gt-pressura-mono-regular-trial-webfont.woff2') format('woff2'),
          url('gt-pressura-mono-regular-trial-webfont.woff') format('woff');
     font-weight: normal;
@@ -27,10 +27,10 @@
 
 
 @font-face {
-    font-family: 'baltolight';
+    font-family: 'Balto-lt';
     src: url('balto-light-webfont.woff2') format('woff2'),
          url('balto-light-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
 
 }
@@ -39,7 +39,7 @@
 
 
 @font-face {
-    font-family: 'baltomedium';
+    font-family: 'Balto-med';
     src: url('balto-medium-webfont.woff2') format('woff2'),
          url('balto-medium-webfont.woff') format('woff');
     font-weight: normal;
