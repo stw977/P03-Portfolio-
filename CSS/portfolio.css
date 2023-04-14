@@ -7,21 +7,6 @@ a {
     text-decoration: none;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-}
-
-.projects-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 2rem;
-    margin-top: 5rem;
-}
 
 figure {
     display: flex;
@@ -35,7 +20,7 @@ figcaption {
 }
 
 img {
-    width: 70%;
+    width: 80%;
     border-radius: 1rem;
 
 }
@@ -98,3 +83,7 @@ fieldset {
     align-self: flex-end;
     text-decoration: none;
 }
+
+
+
+
