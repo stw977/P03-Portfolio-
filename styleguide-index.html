@@ -15,10 +15,10 @@
         <h1>Sofia Tan – Style Guide</h1>
 
         <nav>
-            <a class="nav-main-item" href="portfolio-index.html">portfolio</a>
+            <a class="nav-main-item" href="home.html">portfolio</a>
             <a class="nav-main-item" href="#interactive_elements">interactive elements</a>
-            <a class="nav-main-item" href="#text_elements">text elements</a>
-            <a class="nav-main-item" href="#combined_elements">combined elements</a>
+            <a class="nav-main-item" href="#text_styling">text elements</a>
+            <a class="nav-main-item" href="#combined_element">combined elements</a>
             <a class="nav-main-item" href="https://github.com/stw977/P03-Portfolio-">git</a>
         </nav>
     </header>
@@ -29,10 +29,11 @@
         <div class="border">
             <h3>An in-text link</h3>
             <p>
-                <a href="https://www.lipsum.com/">Placeholder text for in-text link</a>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis nulla ex. Duis cursus justo et
-                finibus
-                molestie. Quisque at purus non lacus sollicitudin maximus quis eu metus. Sed ut nisi metus.
+                Welcome to <a href="home.html">my portfolio</a>! Here you will find a collection of my work that
+                showcases my skills,
+                creativity, and passion for arts and design. From graphic design to app development, I have experience
+                in a variety of
+                areas and am always looking to take on new challenges.
             </p>
         </div>
 
@@ -40,8 +41,8 @@
             <h3>A navigation link</h3>
             <nav>
                 <a href="#" class="nav-main-item">home</a>
-                <a href="#" class="nav-main-item">projects</a>
-                <a href="#" class="nav-main-item">contact</a>
+                <a href="process-analysis.html" class="nav-main-item">projects</a>
+                <a href="contact-me.html" class="nav-main-item">contact</a>
             </nav>
         </div>
 
@@ -51,16 +52,16 @@
             <div class="container">
 
                 <div class="container-item">
-                    <button type="button">SUBMIT</button>
+                    <button type="button">Submit</button>
                     <!-- <input class="button" type="submit" value="Submit"> -->
                 </div>
 
                 <div class="container-item">
-                    <button type="reset">RESET</button>
+                    <button type="reset">Reset</button>
                 </div>
 
                 <div class="container-item">
-                    <button type="button">DEFAULT BUTTON</button>
+                    <button type="button">Default Button</button>
                 </div>
             </div>
         </div>
@@ -69,11 +70,11 @@
         <div class="border">
 
             <h3>Text Input field and labels</h3>
-            <!-- Referenced from https://learn.shayhowe.com/html-css/building-forms/ -->
+
             <form>
                 <fieldset>
 
-                    <!-- <legend>Text Input</legend> -->
+
                     <label>
                         Name <input type="text" name="username" placeholder="enter username">
                     </label>
@@ -155,18 +156,18 @@
         <div class="border">
             <h3>Main Navigation</h3>
             <nav>
-                <a href="index.html" class="nav-main-item">home</a>
-                <a href="#" class="nav-main-item">projects</a>
-                <a href="#" class="nav-main-item">contact</a>
+                <a href="home.html" class="nav-main-item">home</a>
+                <a href="process-analysis.html" class="nav-main-item">projects</a>
+                <a href="contact-me.html" class="nav-main-item">contact</a>
             </nav>
         </div>
 
 
 
-        <form class="border" >
+        <form class="border">
 
             <h3>Contact Me</h3>
-            <fieldset >
+            <fieldset>
                 <!-- <legend>Payment Form</legend> -->
                 <label>
                     Name <input type="text" name="name">
@@ -183,24 +184,53 @@
                 <textarea id="message" name="message"></textarea>
 
 
-            
+
                 <button name="submit">
                     send message
                 </button>
-
-
-
-
-      
 
             </fieldset>
         </form>
 
 
 
+    </section>
+
+    <section id="citations">
+
+        <h2>Citations</h2>
+
+        <div class="border">
+
+            <ul>
+                <li>Style Guide Template retrieved from Lecture material</li>
+                <li>Avatar photo. Retrieved from 
+                    <a href="https://www.figma.com/community/file/1159777445438667306">Link</a> </li>
+                <li>Social media icons. Retrieved from 
+                    <a href="https://docs.iconify.design/design/figma/">Link</a>.</li>
+                <li>Fonts. Retrieved from 
+                    <a href="https://www.fontsquirrel.com/tools/webfont-generator">Link</a></li>
+                <li>Flexbox guide. Retrieved from 
+                    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Link</a></li>
+                <li>Grids guide. Retrieved from 
+                    <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Link</a>.</li>
+                <li>Textbox guide. Retrieved from 
+                    <a href="https://css-tricks.com/textarea-tricks/">Link</a>.</li>
+                <li>Scroll up button tutorial. Retrieved from 
+                    <a href="https://www.freecodecamp.org/news/css-only-back-to-top-button/">Link</a>.</li>
+                <li>Forms guide. Retrieved from 
+                    <a href="https://learn.shayhowe.com/html-css/building-forms/">Link</a>. </li>
+            </ul>
+
+        </div>
 
     </section>
 
+
+
+    <button class="top">
+        <a href="#">Back to top</a>
+    </button>
 </body>
 
 </html>

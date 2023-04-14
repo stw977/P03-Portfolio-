@@ -10,12 +10,9 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    /* align-items: center;  */
     margin-left: auto;
     margin-right: auto;
     margin-top: 5rem;
-
-
 }
 
 .projects-container {
@@ -29,7 +26,7 @@ a {
 figure {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 figcaption {
@@ -38,16 +35,66 @@ figcaption {
 }
 
 img {
-    width: 100%;
-
+    width: 70%;
     border-radius: 1rem;
 
 }
 
 .avatar {
     width: 25%;
+    align-self: center;
 }
 
-fieldset{
+.about-me-text {
+    width: 60%;
+    align-self: center;
+    text-align: center;
+}
+
+#home-header {
+    font-size: 8rem;
+}
+
+#home-subheader {
+    font-family: 'GT-Pressura-mono-rg', serif;
+}
+
+.view-work-button {
+    align-self: center;
+    width: 13rem;
+}
+
+fieldset {
     margin-left: 1rem;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+}
+
+.social-media-icon {
+    width: 3rem;
+    margin: 1rem;
+}
+
+#submitted-note {
+    align-self: center;
+}
+
+#project-1,
+#project-2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.next-button,
+.previous-button {
+    align-self: center;
+}
+
+.top {
+    align-self: flex-end;
+    text-decoration: none;
 }
