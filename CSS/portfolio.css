@@ -1,3 +1,8 @@
+h3 {
+    margin-left: 3rem;
+    margin-right: auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -41,4 +46,8 @@ img {
 
 .avatar {
     width: 25%;
+}
+
+fieldset{
+    margin-left: 1rem;
 }
